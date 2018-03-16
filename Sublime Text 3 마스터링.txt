@@ -1,0 +1,456 @@
+1. Sublime Text 3 설치  
+	[Sublime Text 3 다운로드]
+	http://www.sublimetext.com/3 
+
+  
+2. 에디터 기본 설정 및 단축키 변경  
+	- 파일 생성 및 사이드바 설정   
+		새 문서 파일을 생성하고 저장하는 방법을 다루고, 파일 확장자에 따른 문법 모드 변경 및 직접 문법 모드를 변경하는 방법을 다뤄봅니다. 사이드 바를 토글하는 기본 단축키 설정을 확인하고, 변경하는 방법에 대해 이야기합니다.  
+
+		진행내용 
+		•새 문서(New File) 생성/저장
+		•문법(Syntax) 모드 변경
+		•사이드 바(Side Bar) 토글(Toggle, 보이기/감추기)
+		•사이드 바에 폴더(Directory)를 드래그(Drag)하여 관리
+
+	- 단축키 확인 변경 & 에디터 설정 변경   
+		에디터 단축키 기본값을 확인하거나, 사용자 정의 덮어쓰기하는 방법을 다뤄봅니다. 그 외 다양한 설정을 통해 에디터를 사용자화 하는 방법을 상세히 공부해봅니다. 
+
+		진행내용 
+		•단축키 기본값 확인/덮어쓰기 - Key Bindings (Default & User)
+		•사이드 바 토글(Toggle Side Bar) 단축키 변경
+		•설정 기본값 확인/덮어쓰기 - Setting (Default & User)
+		•타이포그래피 설정 변경 - font_size, font_face, font_options
+		•패딩 설정 변경 - line_padding_top, line_padding_bottom
+		•탭 사이즈 설정 변경 - tab_size
+		•워드 랩 설정 변경 - word_wrap
+		•미니 맵 설정 변경 - draw_minimap_border, always_show_minimap_viewport
+		•하이라이트 라인 설정 변경 - hightlight_line
+		•스크롤 설정 변경 - scroll_past_end
+
+
+3. 고질적인 '한글입력 문제' 해결  
+	- Windows에서 발생하는 '한글 입력 문제' 보완  
+		Windows 환경에서 Sublime Text를 사용하여 한글을 타이핑하면 매우 불편하죠. 이 문제를 해결하기 위한 방법을 진행합니다. 더이상 한글 입력 문제로 고민하지 마세요! :-) 
+
+		[IME Support 패키지 다운로드]
+		https://github.com/chikatoike/IMESupport 
+
+ 
+4. '패키지 관리 도구' & '사이드바 강화' 패키지 설치/활용  
+	- Package Control 및 Sidebar Enhancements 패키지 설치  
+		패키지 관리를 용이하게 도와주는 유용한 도구 Package Control을 설치하고, Install Package 명령어를 통해 Package를 검색/설치하는 방법을 다룹니다. 뿐만 아니라 첫번째 설치할 Package로 사이드바를 보다 강력하게 사용하도록 도와주는 Sidebar Enhancement 패키지를 설치해봅니다. 
+
+		진행내용 
+		•패키지 관리 도구(Package Control) 설치
+		•인스톨 패키지(Install Package) 명령어로 패키지 검색/설치
+		•사이드바 강화(Sidebar Enhancement) 패키지 설치
+
+		[Package Control 설치]
+		https://sublime.wbond.net/ 
+
+		- Sidebar Enhancements 사용자 정의 단축키 설정  
+		사이드바 사용시, 자주 사용되는 기능을 단축키로 등록 활용하는 방법을 다뤄봅니다. 
+
+		진행내용 
+		•[F12]를 눌러 열 기본 브라우저 설정
+		•[Ctrl+Alt+N]을 눌러 새 파일 생성
+		•[F2]를 눌러 파일 이름 변경
+		•[Ctrl+Alt+M]을 눌러 파일 위치 이동
+		•[Ctrl+Alt+D]를 눌러 파일 제거
+
+		[구글 크롬 웹 브라우저 다운로드]
+		https://www.google.com/intl/ko/chrome/browser/ 
+
+
+5. 'EUC-KR 한글 인코딩 표시 문제' 해결  
+	- 'EUC-KR 인코딩 문서 한글표시 문제' 해결  
+		국내 여건 상 웹 사이트 제작 시, EUC-KR 인코딩이 많이 사용되지만, Sublime Text는 기본적으로 EUC-KR 문서의 한글을 제대로 표기하지 못합니다. 이 문제를 해결하기 위한 방법을 알아보도록 합니다. 
+
+		[Convert To UTF-8 Package]
+		github.com/seanliang/ConvertToUTF8 
+
+
+6. 에디터 스타일링 - 테마/컬러스킴/아이콘  
+	- Flatland 테마(Theme) 설치 & 커스텀 설정  
+		Sublime Text 테마(Theme) 변경 및 컬러 스킴(Color Scheme) 변경 방법에 대해 다뤄봅니다. 본 강의에서는 인기 높은 Flatland 테마를 다운로드 받아 설정하는 방법에 대해 공부합니다. 
+
+		[인기있는 Sublime Text 테마(Theme) ]
+		Flatland Theme 	- https://github.com/thinkpixellab/flatland
+		Spacegray Theme 	- https://github.com/kkga/spacegray
+		Nexus Theme 		- https://github.com/EleazarCrusader/nexus-theme
+		Soda Theme 		- https://github.com/buymeasoda/soda-theme/
+		Predawn Theme 	- https://github.com/jamiewilson/predawn
+
+	- 코드 스타일링 - Color scheme 추가 적용  
+		Sublime Text에 적용 가능한 다양한 컬러 스킴(Color Scheme)을 쇼케이스하고 다운로드 가능한 서비스에 대해 알아보고 실제 다운 받아 컬러 스킴을 변경 적용해봅니다. 
+
+		[Day Lerees의 Color Schemes 다운로드]
+		https://github.com/daylerees/colour-schemes 
+
+		[Day Lerees의 Color Schemes 쇼케이스]
+		http://daylerees.github.io/ 		 
+
+		[Color Sublime 다운로드]
+		http://colorsublime.com/ 
+
+	- Sublime Text 아이콘(Icon) 변경  
+		리소스 에디터(RES Editor)를 이용한 Sublime Text 아이콘 디자인 변경에 대해 다뤄봅니다. 남과 차별되는 나만의 Sublime Text 아이콘 디자인을 적용해보세요! 여러분의 Sublime Text는 특별하니까요!!
+		(Windows에서는 *.ico 포멧의 이미지 파일이 필요) 
+
+		[RES Editor 다운로드]
+		http://www.resedit.net/ 
+
+		[Sublime Text 아이콘 다운로드]
+		https://dribbble.com/shots/1192130-Sublime-Text-Replacement-Icon
+		http://cl.ly/2y011p3Z1Q1J 
+
+		[ICO 온라인 변환 서비스]
+		http://www.icoconverter.com/ 
+
+		[Adobe Photoshop - ICO 플러그인 다운로드]
+		http://www.mediacollege.com/adobe/photoshop/plugins/ico/ 
+
+
+7.컨텍스트 메뉴/심볼릭 링크 등록 - Git 설치 및 활용  
+	- 컨텍스트 메뉴에 Sublime Text 등록 & Git 설치/복제  
+		프로젝트 관리를 보다 편리하게 사용하기 위한 고급 사용법을 다룹니다. 컨텍스트(Context) 메뉴에 Sublime Text를 등록하고 프로젝트 디렉토리를 활용하기 위한 방법으로 Gist 파일을 다운로드 하고 풀기 위한 Git을 설치하고 clone 명령어를 사용해봅니다. 
+
+		[OpenWithSublimeTextAsAdmin.bat 다운로드]
+		https://gist.github.com/jcppkkk/8330314 
+
+		[GIT 다운로드]
+		http://git-scm.com/ 
+
+	- 'subl' 심볼릭 링크(Symbolic Link) 등록  
+		Windows 명령어 기반 인터페이스 도구(cmd, powershell)에 'subl' 명령어를 등록하고 Sublime Text를 실행하는 방법을 공부해봅니다. 
+
+		진행내용 
+		•cmd & powershell 명령어 
+		•'시스템 속성 > 고급 > 환경 변수'에 sublime text 등록 
+		•'subl' 기호화 링크 생성
+
+  
+8. 새 문서 - 기본 문법모드 설정  
+	- 새 파일 생성 시, 자주 사용하는 문법 모드 설정  
+		Sublime Text는 기본적으로 문법 설정이 되어 있지 않죠. 'Plain Text'로 되어 있다 보니, 자주 사용하는 문법 모드 설정을 매번 변경해야 하는 번거로움이 있습니다. 본 강의를 통해 새 파일 생성 시, 자주 사용하는 문법 모드를 설정해 놓는다면 매번 번거로운 작업 과정을 줄일 수 있을 겁니다. 예를들어 HTML 로 설정한다면 매번 HTML 문서 문법 형태로 코드를 작성할 수 있어 편리합니다. 
+
+		[ApplySyntax Package]
+		github.com/facelessuser/ApplySyntax
+		 
+
+9. 알아두면 유용한 단축키  
+	[Sublime Text 레퍼런스 - 단축키(Windows)]
+	http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_win.html 
+
+
+10. 북마크 활용 & 프로젝트 관리  
+	- 북마크(Bookmark) 활용  
+		＃ 단축키 정리 
+			[ctrl + F2]
+			북마크 생성 (Create Bookmark) 
+
+			[F2]
+			다음 북마크 (Next Bookmark) 
+
+			[shift + F2]
+			이전 북마크 (Previous Bookmark) 
+
+			[ctrl + shift + F2]
+			북마크 제거 (Clear Bookmarks) 
+
+	- 프로젝트(Project) 관리  
+		＃ 단축키 정리 
+			[ctrl + alt + p]
+			빠른 프로젝트 변경 (Quick Switch Project...) 
+
+
+11. 자동완성 - 코드힌트/스니펫/매크로 활용  
+	- 내장된 자동 완성(Auto Complete) 활용    
+		Sublime Text가 내장하고 있는 자동 완성 기능에 대해 설명합니다. 
+
+	- 스니펫(Snippet) 활용    
+		Sublime Text의 강력한 스니펫 기능을 활용한다면 여러분 업무 프로세스가 향상될 것이라고 자신합니다! 
+
+	- 매크로(Macro) 활용    
+		일련의 행동을 반복 수행하는 노가다를 줄이고 싶다면? Sublime Text의 매크로 기능을 공부해보세요! 당신의 고민을 말끔히 해결해줄겁니다! :-) 
+
+	- 매크로(Macro) 활용 - EditPlus3 '글자 복제' 기능 만들기    
+		Sublime Text 3에는 현재 EditPlus 3의 '글자 복제' 같은 기능을 제공하지는 않습니다. 하지만 매크로(Macro)를 사용하면 동일한 기능을 추가할 수 있을 뿐 아니라, 단축키 또한 사용자 정의하여 설정할 수 있습니다. 
+
+		혹시 바로 사용해보시고 싶으시면 제가 만든 매크로 파일을 다운로드 받아 테스트 해보세요. 다운 받은 Macro.zip 파일의 압축을 푼 후, duplicate-char(like EditPlus3).sublime-macro 파일을 포함한 Macro 폴더를 Package/User 안에 복사 붙여넣기하면 사용할 수 있습니다. 
+
+		그리고 단축키 설정은 'Preference > Key Bindings - User'에 아래와 같은 코드를 입력해주면 사용 가능합니다. 
+
+		// Macro 
+		{ "keys": [ "ctrl+-" ], "command": "run_macro_file", "args": {"file":"Packages/User/Macro/duplicate-char(like EditPlus3).sublime-macro"} }, 
+ 
+
+12. Sublime Text를 보다 강력하게 만들어 줄 패키지 콜렉션  
+	- 새 파일/폴더 생성을 보다 손쉽게! - Advanced New File    
+		Sidebar Enhancements 패키지를 통해 새 파일/폴더 만드는 방법을 이전에 다뤄봤지만, 설정 방법이 어렵다고 느꼈다면 Advanced New File 패키지를 설치해보세요~ 보다 손쉽게 파일/폴더 생성이 가능해질테니까요! 
+ 
+	- 코드 정렬을 손쉽고 편리하게! - Alignment    
+		Alignment 플러그인 패키지를 설치하면 특정 문자를 기점으로 깔끔하게 코드를 정렬할 수 있습니다. 기본 값 외에 추가로 원하는 모든 문자에 정렬을 구성할 수 있도록 설정도 가능합니다. [ctrl+alt+a]를 누르면 마법처럼 깔끔하게 모든 정렬이 마무리됩니다. 
+
+		[Alignment 패키지]
+		wbond.net/sublime_packages/alignment 
+
+		만약 Alignment가 제대로 작동하지 않는다면?
+		monospace 유형의 글꼴(font_face)인지 확인해야 합니다. 
+
+		[개발 환경에 적합한 폰트 10]
+		hivelogic.com/articles/top-10-programming-fonts 
+
+		[나눔고딕코딩체 다운로드]
+		dev.naver.com/projects/nanumfont 
+ 
+	- 정규표현식으로 코드 정렬을 손쉽게! - AlignTab    
+		Alignment 플러그인 패키지와 유사하지만, 추가적으로 유용하게 활용할 수 있는 기능이 있어 Alignment와 함께 사용하면 매우 좋습니다. 무엇보다 정규표현식을 잘 알고 있는 개발자라면 매우 멋진 도구로서 활용이 가능할 겁니다! 
+
+		[AiglinTab 패키지]
+		github.com/randy3k/AlignTab 
+
+	- 코드 괄호를 보기 쉽게 표시해주는 Bracket Highlighter    
+		Bracket Highlighter는 코드를 확인하는데 큰 도움이 되는 플러그인 패키지입니다. 코드량이 많아지면 코드의 시작과 끝을 눈으로 가늠하기 어렵기 마련인데 플러그인을 설치하면 괄호의 시작과 끝을 손쉽게 확인할 수 있습니다. 
+
+		구분이 가능한 괄호 및 따옴표는 아래와 같습니다. 위에서부터 아래 방향으로 태그, 대괄호, 중괄호, 소괄호, 쌍 따옴표, 홑 따옴표 순입니다. 해당 괄호, 따옴표는 각각의 아이콘으로 에디터의 숫자 줄라인 왼쪽에 그려지게 됩니다. 
+		•<tag></tag>
+		•[]
+		•{}
+		•()
+		•""
+		•''
+
+		[Bracket Highlighter 패키지]
+		sublime.wbond.net/packages/BracketHighlighter 
+ 
+	- 클립보드 메모리 관리를 편리하게! - Clipboard History    
+		일반적으로 클립보드에 등록된 메모리는 일회성이지만, 클립보드 히스토리 플러그인 패키지를 Sublime Text에 설치하면 기록하여 관리/호출할 수 있습니다. 단축키 한번이면 복사했던 내용들이 기록되어 있으니 손쉽게 불러낼 수 있어 매우 유용한 패키지입니다. (단축키: ctrl+alt+v) 
+
+		[Clipboard History 패키지]
+		github.com/kemayo/sublime-text-2-clipboard-history 
+
+	- OS '컬러 선택도구'를 팝업으로 띄우는 Color Picker      
+		쉬운 설치 방법
+		영상 강의가 어려우신 분들은 아래 ZIP 파일을 다운로드 받아 압축을 푼 후, ClipboardHistory.sublime-package 파일을 아래 경로에 붙여넣기 합니다. (Sublime Text 3 64bit 기준) 
+
+		'C:\Users\사용자계정\AppData\Roaming\Sublime Text 3\Installed Packages' 
+
+		Sublime Text는 기본적으로 에디터 상에서 컬러 선택도구(Color Picker)를 제공하지 않아 불편합니다. 이 문제를 개선시키기 위해서 Color Picker 패키지를 설치하면 OS에서 제공하는 '컬러 선택도구'를 창으로 띄울 수 있습니다. 
+
+		[Color Picker 패키지]
+		github.com/weslly/ColorPicker 
+
+	- 스크립트 주석(Script Comment) 작성을 편리하게! - DocBlockr    
+		Javascript & PHP, Coffeescript 스크립트 코드 주석 작성시, 손쉽고 편리하게 주석을 작성할 수 있도록 도와주는 유용한 패키지 플러그인입니다. 
+
+		[sublime-jsdocs 패키지]
+		github.com/spadgos/sublime-jsdocs 
+
+		[DocBlokr 활용] 
+		/** (Coffeescript: ###*) 
+		/*  
+
+		[주석(Comments) 활용]
+		docblockr '/**' 들여쓰기 자동 처리  
+		// 싱글 주석 후, Shift+Enter를 눌러 주석 이어서 작성  
+		Tab 키를 눌러 들여쓰기 라인으로 이동  
+
+		[주석(Comments) 꾸미기] 
+		// sublime text 3 mastering course 
+		위 코드처럼 한 줄 주석으로 작성 후, 
+		Ctrl+Enter를 누르면 아래 주석처럼 꾸며짐 
+		//////////////////////////////////////////////////////////
+		 // sublime text 3 mastering course //
+		 ////////////////////////////////////////////////////////// 
+
+		[DocBlokr 탭 이동 복구 ]
+		DocBlockr 주석 Tab 이동 기능이 멈춰진 경우,
+		alt+w 를 누르면 다시 복구되어 Tab 이동이 가능 
+		 
+	- 파일 전송 및 원격 에디팅을 위한 SFTP    
+ 
+	- 코드 컬러링 데이터 출력을 위한 ExportHTML    
+
+	- 손쉬운 온라인 코드/파일 다운로더 - Fetch    
+
+	- CSS 컬러 포멧 변경을 손쉽게 도와주는 HEX to ...    
+
+	- CSS 포멧 변경을 손쉽게! - Tooggle CSS Format    
+
+	- 사칙연산 계산을 간편하게! - Super Calculator    
+
+
+13. 빠른 HTML마크업/CSS스타일링을 위한 Package! - Emmet  
+	- Emmet Package 설치    
+		HTML 마크업, CSS 스탕일링을 빠르게 처리가능하도록 도와주는 강력한 Emmet 패키지를 설치하는 과정을 알아봅니다. 
+
+		[Emmet.io 웹사이트]
+		emmet.io 
+
+	- Emmet HTML - '표준 DTD 문서' 유형별 생성    
+		HTML 표준 문서인 HTML4.01, XHTML1.0 그리고 새로운 표준으로 자리잡고 있는 HTML5 문서 기본형을 빠르게 작성하는 방법을 알아봅니다.  
+
+		[Emmet Documentation]
+		docs.emmet.io  
+
+		[HTML 문서 기본형 축약코드]
+		doc → HTML5 문서 기본 골격 [DTD 제외] 
+		doc4 → HTML4 문서 기본 골격 [DTD 제외]
+		html:4t → HTML4 문서 관용모드 기본 골격
+		html:4s → HTML4 문서 엄격모드 기본 골격
+		html:xt → XHTML1 문서 관용모드 기본 골격
+		html:xs → XHTML1 문서 엄격모드 기본 골격
+		html:5 또는 ! → HTML5 문서 기본 골격  
+
+		[DTD 축약코드]
+		!!!4t → HTML4 관용모드 DTD 
+		!!!4s → HTML4 엄격모드 DTD 
+		!!!xt → XHTML1 관용모드 DTD 
+		!!!xs → XHTML1 엄격모드 DTD 
+		!!! → HTML5 DTD 
+ 
+	- Emmet HTML - '요소 & 형제/자식요소' 생성    
+		[연산자 + > ]
+		HTML 요소 및 형제, 자식 요소를 빠르게 생성하는 방법을 익혀봅니다. 
+
+		[요소/형제/자식요소 만드는 축약코드 ]
+		요소이름 [tab] 
+		형제 선택자 + 
+		자식 선택자 > 
+
+	- Emmet HTML - 구문 연결을 위한 '부모요소 접근 및 그룹핑'    
+		[연산자 ( ) ^] 
+		코드 생성구문을 이어서 작성하기 위해 부모요소에 접근하는 방법과 그룹핑하는 방법을 익혀봅니다.  
+
+		[그룹핑/부모요소 접근 연산자 ]
+		그룹핑 - () 
+		부모요소 접근 - ^ 
+
+	- Emmet HTML - 복수 요소를 생성하기 위한 연산자    
+		[연산자 *] 
+		요소를 1개 이상 복수를 만들고자 할 때 사용 가능한 Emmet 연산자 활용법을 익혀봅니다. :-) 
+ 
+	- Emmet HTML - ID, Class, 속성 선택자를 통한 생성법    
+		[연산자 # . [ ] ]
+		CSS 속성 선택자를 활용한 요소 생성 및 단축 속성 ID, Class를 활용하여 빠르게 HTML 마크업 하는 방법을 알아봅니다.
+
+	- Emmet HTML - 숫자를 자동으로 생성시키는 연산자    
+		[연산자 $ @ - ]
+		$, @ 연산자를 활용하여 자동으로 숫자를 생성하고 순차적으로 또는 역순 방향으로 나열하는 방법을 알아봅니다. 뿐만아니라 생성할 숫자의 시작 값을 설정하는 방법 역시 다뤄봅니다. 
+
+	- Emmet HTML - 텍스트를 추가하는 연산자    
+		[연산자 { } ]
+		Emmet 코드 구문을 작성하면서 요소만 생성하는 것이 아니라, 각 요소 내부에 텍스트를 생성하는 방법을 알아봅니다. 
+ 
+	- Emmet HTML - 부모요소에 따라 암묵적 코드 생성    
+		[Implicit tag names]
+		명시하지 않아도 암묵적으로 부모 요소의 유형에 따라 자동으로 태그가 결정되는 기능을 Emmet은 지원합니다. 
+ 
+	- Emmet HTML - 더미텍스트(Lorem Ipsum) 생성기 활용    
+		["Lorem Ipsum" Generator]
+		디자인 프로토타입 제작 시, 더미 텍스트를 생성해주는 기능을 Emmet은 지원합니다. 
+ 
+	- Emmet HTML - 커스터마이징 (맞춤 설정)    
+		[Emmet Customizing]
+		Snippets.json 파일에 설정되어 있는 Snippets, Abbreviations, Alias 를 사용자 정의하에 설정하는 방법을 공부해봅니다. 또한 문법 출력모드 변경에 대해서도 알아봅니다. 
+ 
+	- Emmet HTML - 주언어 설정 값을 한국어(ko-KR)로 변경 설정    
+		HTML 문서의 '주언어' 설정을 영어(en)에서 한국어(ko)로 기본 설정 값을 바꿔봅니다. 
+ 
+	- Emmet HTML - 인터랙티브한 코드 작성법, 축약코드로 감싸는 방법, 태그 제거 방법    
+		Emmet으로 작성 가능한 빠른 HTML 마크업의 진수이자, 결정판입니다. 아래 코드를 필히 마스터해보세요! 
+
+		[인터랙티브 코드 작성: Interactive Expand Abbreviation]
+		Ctrl + Alt + Enter  
+
+		[축약 코드로 감싸서 코드 작성: Wrap with Abbreviation]
+		Ctrl + Shift + G  
+
+		[태그 제거: Remove Tag]
+		Ctrl + Shfit + ; 
+
+	- Emmet CSS - 속성, 값, 단위, 컬러 등을 축약 코드로 생성    
+		Emmet에서 사용 가능한 CSS 축약 코드 생성 방법을 익혀봅니다. 
+		문법, 단위, 컬러, !important 등 축약 코드 활용 
+ 
+	- Emmet CSS - 브라우저 제조사 접두사 코드 자동 생성    
+		새로운 CSS3 속성마다 브라우저 제조사의 접두사를 붙이는 것은 매우 곤혹스러운 일이죠. 이 문제를 Emmet은 멋지게 해결해줍니다. :-) 그 방법을 익혀보겠습니다. 
+ 
+	- Emmet CSS - CSS3 Gradients 코드 자동 생성    
+		CSS3 Linear-Gradient 문법을 잘 모르더라도 Emmet을 활용하면 손쉽게 크로스 브라우징 그레디언트 코드를 생성할 수 있습니다. 
+ 
+	- Emmet CSS - 빠른 코딩(Fuzzy Search) & 커닝페이퍼(Cheat Sheet)    
+		Emmet을 활용하면 CSS 스타일링도 매우 빠르게 작성이 가능합니다. 물론 익숙하지 않은 방법을 익히기 위해서는 학습이 필요하기 때문에 커닝페이퍼의 도움을 받아 여러번 반복해주는 것이 중요합니다. 
+
+		[Emmet Cheat Sheet]
+		docs.emmet.io/cheat-sheet/ 
+ 
+	- Emmet Actions - CSS 값 미러링    
+		CSS3 브라우저 제조사의 접두사 만큼 수정량이 많아져서 골치 아픈 부분을 손쉽게 단축키로 모두 미러링할 수 있는 기능을 Emmet은 제공합니다. 
+
+		[Reflect CSS Value]
+		Ctrl+Shift+R  
+
+		[Emmet Actions 단축키 보기]
+		emmet-sublime#user-content-available-actions 
+ 
+	- Emmet Actions - Tag 이름 교체    
+		HTML 태그 이름을 바꾸려면 여는 태그와 닫는 태그 이름을 모두 바꿔야 하죠. 이를 한번에 처리할 수 있다면 매우 편리하겠죠? Emmet은 Tag의 이름을 단축키 한번으로 바꾸는 방법을 제공해 수정이 매우 용이합니다. 
+
+		[Rename Tag]
+		Shift+Ctrl+'  
+
+		[Emmet Actions 단축키 보기]
+		emmet-sublime#user-content-available-actions 
+ 
+	- Emmet Actions - 수식 계산    
+		수식 연산을 계산기 없이 처리할 수 있어 매우 유용합니다. 
+
+		[Evaluate Math Expression]
+		Ctrl+Shift+Y 
+
+		[Emmet Actions 단축키 보기]
+		emmet-sublime#user-content-available-actions 
+ 
+	- Emmet Actions - 빠른 편집을 위한 테크닉 정리!    
+		Emmet HTML - 빠른 편집을 위한 테크닉을 하나하나 설명합니다. 단축키가 적용되지 않는 경우는 별도로 커스텀 설정해줘야 합니다. 
+
+		매칭되는 태그 쌍 블록 선택(바깥쪽): Match Tag Pair Outward
+		Ctrl + , 
+
+		매칭되는 태그 쌍 블록 선택(안쪽): Match Tag Pair Inward
+		Shift+Ctrl+0 → 변경:Shift + Ctrl + , 
+
+		편집 포인트로 이동: Go to Edit Point
+		Ctrl+Alt+→
+		Ctrl+Alt+← 
+
+		아이템 선택: Select Item
+		Shift + Ctrl + . → 변경:Shift + Ctrl + alt + . 
+		Shift + Ctrl + , → 변경:Shift + Ctrl+ alt + , 
+
+		숫자 증가/감소: Increment / Decrement Number
+		1씩 증가: Ctrl+↑
+		1씩 감소: Ctrl+↓
+		0.1씩 증가: Alt+↑
+		0.1씩 감소: Alt+↓
+		10씩 증가: Shift+Alt+↑
+		10씩 감소: Shift+Alt+↓ 
+
+		Emmet Actions 단축키 보기
+		emmet-sublime#user-content-available-actions 
+
+	- Emmet Actions - 이미지 사이즈 자동 업데이트 & data:URL    
+		Sublime Text 도구는 인기리에 사용되고 있지만, 이미지 파일을 활용하는 부분에서는 다른 툴에 비해 매우 불편합니다. 이런 불편함을 Emmet을 활용하면 어느 정도 해소가 가능합니다. 그 방법에 대해 다뤄보겠습니다. 
+
+		이미지 사이즈 업데이트: Update Image Size
+		Ctrl + U 
+
+		data:URL 이미지 포멧 변환: Encode/Decode Image to data:URL
+		Ctrl + ' 
+ 
+	- Emmet Actions - 단축키 (Mac/Win)    
+
+14. 협업 및 코드 버전 관리를 위한 Git & Gist  
