@@ -1,4 +1,5 @@
 # onggari_project
-test and etc
 
 just test..and test..!
+
+테스트 및 연습 공간
